@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="styleform1.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="header">Let's Connect</h1>
+            <hr>
+            <p>Name:- * <input type="text" name="name" id="name" required placeholder="Enter your Name"></p>
+            <p>Date of Birth:- * <input type="date" name="Date_of_birth" id="Date_of_birth" required></p>
+            <fieldset>
+            <legend style="text-decoration:underline ;">Gender *</legend>
+            <p>Male <input type="radio" name="gender" id="gender" required>Female <input type="radio" name="gender" id="gender"></p></fieldset>
+            <p>Email:- * <input type="email" name="email" id="email" required></p>
+            <p>Contact no:- * <input type="number" name="Contact" id="Contact"></p>
+            <p>Name of University/College:- * <input type="text" name="University" id="University"></p>
+            <p>Department
+                <select name="department" id="department" required>
+                    <option value="">Select_your_Department</option>
+                    <option value="CSE">Computer Science</option>
+                    <option value="ECE">Electrical Engg</option>
+                    <option value="ME">Mechanical Engg</option>
+                    <option value="AE">Aeronautics Engg</option>
+                    <option value="CE">Civil Engg</option>
+                    <option value="R">Robotics</option>
+                </select>
+            </p>
+            <p>Year of Graduation:- * <input type="date" name="year" id="year"></p>
+            <p>Languages you know:-
+                <select name="Languages" id="Languages">
+                    <option value="">Select</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="None">None</option>
+                    <option value="Other">Other</option>
+                    <p>Other <input type="text" placeholder="If Other then enter"></p>
+                </select>
+            </p>
+            <p>About:- <textarea name="About" id="About" cols="80" rows="10"></textarea></p>
+            <fieldset>
+            <legend style="text-decoration:underline ;">Area of Interest *</legend>
+            <p>Web Development <input type="radio" name="Webdev" id="Area">Android Development <input type="radio" name="Androiddev" id="Area">Artificial Intelligence <input type="radio" name="AI" id="Area">
+            Web3.0 <input type="radio" name="Web3.0" id="Area"> Machine Learning <input type="radio" name="ML" id="Area"> Competitive Programming <input type="radio" name="CP" id="Area"></p></fieldset>
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
